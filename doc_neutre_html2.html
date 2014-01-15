@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="fr">
+    <head>
+        <meta charset="utf-8">
+        <title>Maçonnerie de blocs rectifiés en pierre ponce posés à joints minces</title>
+        <link rel="stylesheet" href="css/reset.css">
+        <link rel="stylesheet" href="css/doc_page.css">
+        <script src="http://code.jquery.com/jquery-1.10.1.min.js"></script>
+    </head>
+    <body>
+        <!-- Centrer le contenu -->
+        <div id='wrapper'>
+          <p>hey</p>  
+            
+        </div>
+
+        <script type="text/javascript">
+            $(function() {
+                var templateCouverture, templatePage, contenu;
+                //chercher le contenu à afficher
+                $("#wrapper").append('<p>hello</p>');
+                $.get('contenu.html', function(data) {
+                  
+                    contenu = data;
+                });     
+                //chercher les template
+                $.get('template_couverture.html', function(data) {
+                 
+                    templateCouverture = data;
+                    
+                });  
+                $.get('template_page.html', function(data) {
+                    
+                    templatePage = data;
+                }); 
+                //remplir la couverture
+
+                //remplir noeud par noeud les pages et tester la taille du contenu
+
+                    //si celui ci depasse, creer une nouvelle page
+            });
+        </script>
+    </body>
+</html>

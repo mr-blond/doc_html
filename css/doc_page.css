@@ -1,0 +1,191 @@
+body{
+    background-color: #ddd;
+    font-family: arial;
+}
+
+p, ul li{
+    font-size: 11px;
+    line-height: 17px;
+    padding-top: 10px;
+}
+
+strong{
+    font-weight: bold;
+}
+em{
+    font-style: italic;
+}
+.right{
+    float: right;
+}
+.left{
+    float: left;
+}
+.blue{
+    color: #1E82BE;
+}
+.yellow{
+    background-color: yellow;
+}
+ul li{
+    list-style: disc;
+}
+ul{
+    padding-left: 30px;
+}
+.page{
+    width: 455px;
+    height: 700px;
+    padding: 70px;
+    margin: 0 auto;
+    box-shadow: 1px 1px 12px #555;
+    margin-top: 15px;
+    background-color: #fff;
+    position: relative;
+}
+.page .content{
+  
+    min-height: 570px;
+  
+}
+/* PAGE DE COUVERTURE */
+h2#nom_cctp{
+    color : rgb(30,130,190);
+    padding-top: 5px;
+    font-size: 18px;
+}
+
+.couverture #logo{
+    background-image: url("../images/doc_html/logo.png");
+    width: 453px;
+    height: 82px;
+}
+
+.couverture #localisation{
+    padding-top: 70px;
+}
+
+.couverture #localisation h3{
+    text-align: center;
+    padding-bottom: 12px;
+    color: #4B4B4B;
+    font-size: 14px;
+    font-weight: bold;
+
+}
+
+.couverture table{
+    width: 100%;
+    color: white;
+
+}
+.couverture table tr th,.couverture table tr td{
+    background-color: #DBE5F1;
+    width: 91px;
+    text-align: center;
+
+}
+.couverture table tr th{
+    background-color: #4B4B4B;
+
+}
+.couverture table tr td{
+    background-color: #1E82BE;
+}
+.bottom #maj{
+    font-family: "Arial Black",arial;
+    font-weight: bold;
+    font-size: 18px;
+    color: #4B4B4B;
+    text-align: center;
+    padding-bottom: 15px;
+}
+.bottom .info.red{
+    background-color: #EDE4E4;
+    text-align: center;
+    padding: 10px;
+    color:#B03254;
+    font-size: 10px;
+    margin-bottom: 15px;
+    font-weight: bold;
+    line-height: 16px;
+}
+.bottom{
+    position: absolute;
+    width: 455px;
+    bottom: 50px;
+}
+
+/* PAGE */
+
+
+.block{
+    padding: 10px 0;
+}
+
+/* TITRE */
+
+.page h3{
+    font-weight: bold;
+    font-size: 14px;
+    color: rgb(104,104,104);
+    padding-top: 15px;
+
+}
+h2{
+    font-size: 20px;
+    color: #4B4B4B;
+    font-weight: bold;
+    text-transform: uppercase;
+    line-height: 25px;
+    padding-bottom: 6px;
+}
+
+/* template */
+.page .upper{
+    background-image: url('../images/doc_html/mini_logo.gif');
+    opacity: 0.7;
+    height: 60px;
+    width: 150px;
+    background-repeat: no-repeat;
+
+}
+.page .footer{
+    opacity: 0.6;
+    position: absolute;
+    bottom: 50px;
+    width: 455px;
+
+}
+
+/*TABLEAU*/
+table tr td{
+    background-color: #DBE5F1;
+}
+table tr.even td{
+    background-color: #F2F2F2;
+}
+table tr th{
+    background-color: #4B4B4B;
+    color: white;
+}
+table{
+    border: solid 1px #aaa;
+
+}
+table tr th{
+    font-weight: bold;
+}
+table tr td,table tr th {
+
+    font-size: 10px;
+    padding: 5px;
+    border-left: solid 1px #aaa;
+
+    text-align: left;
+
+}
+table.relative tr th{
+    text-align: center;
+}
+
